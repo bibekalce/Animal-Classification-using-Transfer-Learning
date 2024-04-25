@@ -22,10 +22,10 @@ Once training is complete, you can test the trained model using the test script:
 animal-classification/
 │
 ├── data/                  # Directory containing the Animal dataset
-│   ├── acinonyx-jubatus/
-│   ├── aethia-cristatella/
+│   ├── acinonyx\-jubatus/
+│   ├── aethia\-cristatella/
 │   ├── ...
-│   └── vultur-gryphus/
+│   └── vultur\-gryphus/
 │
 ├── models/                # Directory containing model definitions
 │   ├── mobilenetv2.py
