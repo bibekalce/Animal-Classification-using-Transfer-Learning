@@ -20,17 +20,12 @@ This code trains the model using transfer learning with MobileNetV2 and Efficien
 Once training is complete, you can test the trained model using the test script:
 
 animal-classification/
-│
-├── data/                  # Directory containing the Animal dataset
-│   ├── acinonyx\-jubatus/
-│   ├── aethia\-cristatella/
-│   ├── ...
-│   └── vultur\-gryphus/
-│
-├── models/                # Directory containing model definitions
-│   ├── mobilenetv2.py
-│   └── efficientnet.py
-│
-├── train.py               # Script for training the model
-├── test.py                # Script for testing the trained model
-└── README.md              # This README file
+-├── data/                  # Directory containing the Animal dataset
+-│   ├── acinonyx\-jubatus/
+-│   ├── aethia\-cristatella/
+-│   ├── ...
+-│   └── vultur\-gryphus/
+-│
+-├── models/                # Directory containing model definitions
+-│   ├── mobilenetv2.py
+-│   └── efficientnet.py
